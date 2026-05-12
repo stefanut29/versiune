@@ -2,7 +2,8 @@
   "dependencies": {
     "concurrently": "^9.2.1"
   },
-  "scripts": {
-    "start": "concurrently \"json-server --watch db.json --port 3000\" \"node server.js\""
-  }
+ "scripts": {
+  "start": "concurrently \"json-server --watch db.json --port 3000\" \"node server.js\"",
+  "dev": "concurrently \"json-server --watch db.json --port 3000\" \"nodemon server.js\""
+}
 }
