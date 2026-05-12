@@ -115,6 +115,6 @@ app.post("/api/names/sort", (req, res) => {
 // ─────────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Serverul ruleaza la http://localhost:${PORT}`);
+  console.log(`Serverul ruleaza la ${PORT}`);
   console.log(`Fișiere generate în: ${OUTPUT_DIR}`);
 });
