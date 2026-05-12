@@ -1,0 +1,31 @@
+# Dependențe
+node_modules/
+
+# Fișiere de sistem
+.DS_Store
+Thumbs.db
+
+# Variabile de mediu
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Fișiere generate de aplicație
+backend/output/*.txt
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+node_modules/
+.env
+**/node_modules/

@@ -1,0 +1,22 @@
+{
+  "name": "sortare-nume-backend",
+  "version": "1.0.0",
+  "description": "Backend Express pentru aplicatia Sortare Nume",
+  "main": "server.js",
+  "scripts": {
+  "start": "concurrently \"json-server --watch db.json --port 3000\" \"node server.js\"",
+  "dev": "concurrently \"json-server --watch db.json --port 3000\" \"nodemon server.js\""
+},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "joi": "^17.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
