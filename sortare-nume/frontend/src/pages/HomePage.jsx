@@ -231,7 +231,7 @@ export default function HomePage() {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 gap-3">
               {names.map((name, i) => (
                 <NameItem
                   key={`${name}-${i}`}
